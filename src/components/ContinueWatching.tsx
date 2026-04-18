@@ -9,8 +9,9 @@ export function ContinueWatching() {
       id: 'naruto-resume',
       title: 'Naruto',
       rating: 9.5,
-      image: 'https://images.unsplash.com/photo-1614583225154-5fcdda07019e?q=80&w=600&auto=format&fit=crop',
-      videoUrl: 'UmiN-Xp9vAs' // Naruto vs Sasuke
+      image: 'https://cdn.myanimelist.net/images/anime/13/17405.jpg',
+      videoUrl: 'UmiN-Xp9vAs',
+      progress: 65
     });
   };
 
@@ -21,7 +22,7 @@ export function ContinueWatching() {
         onClick={handleResume}
         className="flex-1 rounded-xl overflow-hidden relative group cursor-pointer border border-white/10 hover:border-brand-orange/50 transition-all shadow-lg shadow-black/50 bg-[#131927] min-h-[200px]"
       >
-        <img src="https://images.unsplash.com/photo-1614583225154-5fcdda07019e?q=80&w=600&auto=format&fit=crop" alt="Naruto Equivalent" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100" referrerPolicy="no-referrer" />
+        <img src="https://cdn.myanimelist.net/images/anime/13/17405.jpg" alt="Naruto Equivalent" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 opacity-90 group-hover:opacity-100" referrerPolicy="no-referrer" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-[#0B0F19]/40 to-transparent transition-colors group-hover:via-[#0B0F19]/20" />
         
         <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">

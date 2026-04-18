@@ -10,7 +10,7 @@ export function WatchParty() {
       <div className={`flex-1 rounded-xl bg-gradient-to-br border p-5 relative overflow-hidden group shadow-[0_0_30px_rgba(255,106,0,0.05)] flex flex-col min-h-[220px] transition-all duration-500 ${joinedParty ? 'from-green-900/20 to-[#0B0F19] border-green-500/30' : 'from-[#1a1f35] to-[#0f1423] border-brand-orange/30'}`}>
         {/* Background image & overlay */}
         <div className="absolute inset-0 opacity-40 group-hover:opacity-50 transition-opacity duration-700">
-          <img src="https://images.unsplash.com/photo-1542382257-80dedb725088?q=80&w=400&auto=format&fit=crop" alt="Background" className="w-full h-full object-cover grayscale mix-blend-overlay" referrerPolicy="no-referrer" />
+          <img src="https://cdn.myanimelist.net/images/anime/5/17407.jpg" alt="Background" className="w-full h-full object-cover grayscale mix-blend-overlay" referrerPolicy="no-referrer" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-[#0B0F19]/80 to-[#0B0F19]/40" />
         </div>
         

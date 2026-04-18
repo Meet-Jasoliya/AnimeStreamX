@@ -69,7 +69,7 @@ export function Comments() {
 
             {/* Add Comment Input */}
             <form onSubmit={handleSubmit} className="flex items-center gap-3 md:gap-4 mt-6 pt-6 border-t border-white/5">
-              <img src="https://picsum.photos/seed/avatar5/100/100" alt="Current User" className="w-10 h-10 border border-brand-orange/50 rounded-full shrink-0 shadow-[0_0_10px_rgba(255,106,0,0.2)] object-cover" referrerPolicy="no-referrer" />
+              <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=avatar" alt="Current User" className="w-10 h-10 border border-brand-orange/50 rounded-full shrink-0 shadow-[0_0_10px_rgba(255,106,0,0.2)] object-cover" referrerPolicy="no-referrer" />
               <div className="flex-1 relative group md:max-w-2xl">
                 <input 
                   type="text" 

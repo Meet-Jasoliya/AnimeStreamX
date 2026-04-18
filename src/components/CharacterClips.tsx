@@ -15,7 +15,7 @@ export function CharacterClips() {
     setActiveVideo({
       ...clip,
       rating: 9.9,
-      image: 'https://images.unsplash.com/photo-1614583225154-5fcdda07019e?q=80&w=600&auto=format&fit=crop'
+      image: 'https://cdn.myanimelist.net/images/anime/5/17407.jpg'
     });
   };
 
@@ -53,7 +53,7 @@ export function CharacterClips() {
               onClick={() => handleWatchClip('clip1')}
               className="rounded-xl overflow-hidden relative group/clip cursor-pointer border border-white/10 shadow-md aspect-[3/4] md:aspect-auto"
              >
-                <img src="https://images.unsplash.com/photo-1618336753974-aae8e04506aa?q=80&w=300&auto=format&fit=crop" alt="Clip 1" className="w-full h-full object-cover transform group-hover/clip:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                <img src="https://cdn.myanimelist.net/images/anime/13/17405.jpg" alt="Clip 1" className="w-full h-full object-cover transform group-hover/clip:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                 <div className="absolute inset-0 bg-[#0B0F19]/40 group-hover/clip:bg-[#0B0F19]/20 transition-colors" />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover/clip:opacity-100 transition-opacity duration-300">
                   <div className="bg-brand-orange/90 rounded-full p-2 shadow-[0_0_15px_rgba(255,106,0,0.5)]">
@@ -67,7 +67,7 @@ export function CharacterClips() {
                   onClick={() => handleWatchClip('clip2')}
                   className="rounded-xl overflow-hidden relative group/clip cursor-pointer border border-white/10 shadow-md aspect-video md:aspect-auto"
                 >
-                  <img src="https://images.unsplash.com/photo-1542382257-80dedb725088?q=80&w=300&auto=format&fit=crop" alt="Clip 2" className="w-full h-full object-cover transform group-hover/clip:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                  <img src="https://cdn.myanimelist.net/images/anime/5/17407.jpg" alt="Clip 2" className="w-full h-full object-cover transform group-hover/clip:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                   <div className="absolute inset-0 bg-[#0B0F19]/40 group-hover/clip:bg-[#0B0F19]/20 transition-colors" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover/clip:opacity-100 transition-opacity duration-300">
                     <div className="bg-brand-orange/90 rounded-full p-1.5 shadow-[0_0_15px_rgba(255,106,0,0.5)]">
@@ -80,7 +80,7 @@ export function CharacterClips() {
                   onClick={() => handleWatchClip('clip3')}
                   className="rounded-xl overflow-hidden relative group/clip cursor-pointer border border-white/10 shadow-md aspect-video md:aspect-auto"
                 >
-                  <img src="https://images.unsplash.com/photo-1578632292335-df3f47463852?q=80&w=300&auto=format&fit=crop" alt="Clip 3" className="w-full h-full object-cover transform group-hover/clip:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
+                  <img src="https://cdn.myanimelist.net/images/anime/13/17405.jpg" alt="Clip 3" className="w-full h-full object-cover transform group-hover/clip:scale-110 transition-transform duration-700" referrerPolicy="no-referrer" />
                   <div className="absolute inset-0 bg-[#0B0F19]/40 group-hover/clip:bg-[#0B0F19]/20 transition-colors" />
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover/clip:opacity-100 transition-opacity duration-300">
                     <div className="bg-brand-orange/90 rounded-full p-1.5 shadow-[0_0_15px_rgba(255,106,0,0.5)]">

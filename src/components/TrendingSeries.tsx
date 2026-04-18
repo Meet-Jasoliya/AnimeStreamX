@@ -2,9 +2,9 @@ import { Star, ChevronRight, PlayCircle } from 'lucide-react';
 import { useStore } from '../store';
 
 const trending = [
-  { id: 4, title: 'My Hero Academia', rating: 11, image: 'https://images.unsplash.com/photo-1549692520-acc6669e2f0c?q=80&w=600&auto=format&fit=crop', videoUrl: '3SSt9YpQ6oM' },
-  { id: 5, title: 'Tokyo Revengers', rating: 5, image: 'https://images.unsplash.com/photo-1554244933-d876deb6b2fa?q=80&w=600&auto=format&fit=crop', videoUrl: 'O7W2X6vVl_Q' },
-  { id: 6, title: 'Death Note', rating: 8, image: 'https://images.unsplash.com/photo-1509347528160-9a9e33742cdb?q=80&w=600&auto=format&fit=crop', videoUrl: 'NlJZ-YgAt-c' },
+  { id: 4, title: 'My Hero Academia', rating: 11, image: 'https://cdn.myanimelist.net/images/anime/10/78745.jpg', videoUrl: '3SSt9YpQ6oM' },
+  { id: 5, title: 'Tokyo Revengers', rating: 5, image: 'https://cdn.myanimelist.net/images/anime/1839/122012.jpg', videoUrl: 'O7W2X6vVl_Q' },
+  { id: 6, title: 'Death Note', rating: 8, image: 'https://cdn.myanimelist.net/images/anime/9/9453.jpg', videoUrl: 'NlJZ-YgAt-c' },
 ];
 
 export function TrendingSeries() {

@@ -9,7 +9,7 @@ export function Hero() {
       id: 'aot',
       title: 'Attack on Titan',
       rating: 9.8,
-      image: 'https://images.unsplash.com/photo-1618336753974-aae8e04506aa?q=80&w=2670&auto=format&fit=crop',
+      image: 'https://cdn.myanimelist.net/images/anime/10/47347.jpg',
       videoUrl: 'MGRm4IzK1SQ' // Real AOT trailer
     });
   };
@@ -20,7 +20,7 @@ export function Hero() {
     <div className="relative w-full aspect-[4/3] sm:aspect-[21/9] min-h-[60vh] md:min-h-[500px] max-h-[800px] mt-0 overflow-hidden">
       <div className="absolute inset-0">
         <img 
-          src="https://images.unsplash.com/photo-1618336753974-aae8e04506aa?q=80&w=2670&auto=format&fit=crop" 
+          src="https://cdn.myanimelist.net/images/anime/10/47347.jpg" 
           alt="Attack on Titan Concept" 
           className="w-full h-full object-cover object-center" 
           referrerPolicy="no-referrer"

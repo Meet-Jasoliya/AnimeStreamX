@@ -29,7 +29,7 @@ export function FanDiscussions() {
         
         {/* Featured Fan Art */}
         <div className="rounded-xl overflow-hidden relative border border-white/10 min-h-[220px] md:min-h-0 group shadow-lg aspect-auto">
-          <img src="https://images.unsplash.com/photo-1541562232579-512a21360020?q=80&w=800&auto=format&fit=crop" alt="Fan Art" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
+          <img src="https://cdn.myanimelist.net/images/anime/1208/94745.jpg" alt="Fan Art" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700" referrerPolicy="no-referrer" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0B0F19] via-[#0B0F19]/20 to-transparent" />
           
           <div className="absolute bottom-0 w-full p-4 flex flex-col gap-1">
@@ -38,7 +38,7 @@ export function FanDiscussions() {
              </div>
              <p className="text-lg font-black text-white tracking-tight drop-shadow-lg font-heading">The Silent Guardian</p>
              <div className="flex items-center gap-2">
-                <img src="https://picsum.photos/seed/artist/40/40" className="w-5 h-5 rounded-full border border-white/20" referrerPolicy="no-referrer" />
+                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=avatar" className="w-5 h-5 rounded-full border border-white/20" referrerPolicy="no-referrer" />
                 <p className="text-xs text-gray-300 font-medium font-sans">by @ArtisticSoul</p>
              </div>
           </div>

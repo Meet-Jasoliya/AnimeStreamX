@@ -4,9 +4,9 @@ import { GoogleGenAI } from "@google/genai";
 import { useStore } from '../store';
 
 const recommendations = [
-  { id: 1, title: 'Demon Slayer', rating: 9, image: 'https://images.unsplash.com/photo-1578632292335-df3f47463852?q=80&w=600&auto=format&fit=crop', videoUrl: 'VQGCKyvzIM4' },
-  { id: 2, title: 'Jujutsu Kaisen', rating: 9, image: 'https://images.unsplash.com/photo-1614583224978-f05ce51ef5fa?q=80&w=600&auto=format&fit=crop', videoUrl: 'Pk8L_970DTo' },
-  { id: 3, title: 'One Punch Man', rating: 8, image: 'https://images.unsplash.com/photo-1541562232579-512a21360020?q=80&w=600&auto=format&fit=crop', videoUrl: '2JAElThbKrI' },
+  { id: 1, title: 'Demon Slayer', rating: 9, image: 'https://cdn.myanimelist.net/images/anime/1286/99889.jpg', videoUrl: 'VQGCKyvzIM4' },
+  { id: 2, title: 'Jujutsu Kaisen', rating: 9, image: 'https://cdn.myanimelist.net/images/anime/1171/109222.jpg', videoUrl: 'Pk8L_970DTo' },
+  { id: 3, title: 'One Punch Man', rating: 8, image: 'https://cdn.myanimelist.net/images/anime/12/76049.jpg', videoUrl: '2JAElThbKrI' },
 ];
 
 export function AIRecommendations() {

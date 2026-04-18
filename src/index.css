@@ -7,3 +7,7 @@
   --color-brand-orange: #FF6A00;
   --color-brand-orange-hover: #E55A00;
 }
+
+html {
+  scroll-behavior: smooth;
+}

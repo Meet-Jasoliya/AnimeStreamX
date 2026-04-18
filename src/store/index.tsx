@@ -35,8 +35,8 @@ const StoreContext = createContext<StoreContextType | undefined>(undefined);
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [watchlist, setWatchlist] = useState<(string | number)[]>([]);
   const [comments, setComments] = useState<Comment[]>([
-    { id: 1, user: 'Ajay', avatar: 'https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=100&auto=format&fit=crop', text: "That episode was intense! Can't wait for the next one.", time: '2m ago' },
-    { id: 2, user: 'Priya', avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop', text: "Amazing twist! What do you think will happen next?", time: '15m ago' },
+    { id: 1, user: 'Ajay', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=user', text: "That episode was intense! Can't wait for the next one.", time: '2m ago' },
+    { id: 2, user: 'Priya', avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=user', text: "Amazing twist! What do you think will happen next?", time: '15m ago' },
   ]);
   const [joinedParty, setJoinedParty] = useState(false);
   const [activeVideo, setActiveVideo] = useState<Anime | null>(null);
@@ -52,7 +52,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     const newComment: Comment = {
       id: Date.now(),
       user: 'Raj',
-      avatar: 'https://picsum.photos/seed/avatar5/100/100',
+      avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=avatar',
       text,
       time: 'Just now'
     };
